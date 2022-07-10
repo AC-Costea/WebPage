@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 
 }
 .first{
@@ -8,28 +9,35 @@ body{
     flex-direction: column;
     gap: 20px;
     background-color: #1f2937;
+    padding: 10px 35px 150px 35px  ;
     
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px ;
     
 }
 .img{
-    width: 500px;
+    width: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
     align-items: stretch;
+    gap: 10px;
 
     
 }
-img{
-    max-width: 250px;
-    
+.img img{
+   width: 300px;
+   height: 200px;
+    border-radius: 2px;
 }
+
+    
+
 ul{
     margin: 0;
     padding: 0;
@@ -38,13 +46,24 @@ ul{
 }
 a{
     font-size: #e5e7eb;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin: 0 10px;
 }
 .left{
     display: flex;
     flex-direction: column;
+    font-size: 18px;
+    gap: 10px;
 }
 button{
     align-self: flex-start;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-weight: bold;
 }
 header{
     font-size: 48px;
@@ -52,10 +71,72 @@ header{
     color: #f9faf8;
 }
 .logo{
+    display: flex;
     font-size: 24px;
     color: #f9faf8;
+    gap: 2px;
+}
+.logo img{
+    width: 30px;
+    
 }
 .left1{
     font-size: 18px;
     color: #e5e7eb;
+}
+.cards{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 200px;
+    margin: 10px;
+   
+    padding: 10px;
+    font-size: 18px;
+    gap: 10px;
+    color: rgb(121, 119, 119);
+}
+
+
+.card img{
+    max-width: 100%;
+    height: 110px;
+    border-radius: 5px;
+    
+    border: 2px #3882f6 solid;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+
+}
+.second header{
+    color:#1f2937 ;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 140px;
+}
+.third .quote{
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.third .author{
+    font-size: 25px;
+    color:#1f2937;
+    align-self: flex-end;
 }
