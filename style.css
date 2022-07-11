@@ -140,3 +140,41 @@ header{
     color:#1f2937;
     align-self: flex-end;
 }
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    gap: 30px;
+
+
+}
+p{
+    margin: 0;
+}
+.text{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.sn{
+    border: solid 2px #f9faf8  ;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.fifth{
+    display: flex;
+    padding: 60px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
